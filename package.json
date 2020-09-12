@@ -1,6 +1,11 @@
 {
-  "name": "cra-template-quick-dva",
-  "version": "1.0.0",
+  "name": "cra-template-quickdva",
+  "version": "1.0.1",
+  "main": "template.json",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Juliana",
   "keywords": [
     "react",
     "create-react-app",
