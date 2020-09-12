@@ -1,6 +1,6 @@
 {
   "name": "cra-template-quickdva",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "template.json",
   "publishConfig": {
     "access": "public"
