@@ -43,7 +43,10 @@
       "start": "react-app-rewired start",
       "build": "react-app-rewired build",
       "test": "react-app-rewired test",
-      "eject": "react-scripts eject"
+      "eject": "react-scripts eject",
+      "eslint": "npx eslint src/**/*.{ts,tsx}",
+      "stylelint:fix": "stylelint src/**/*.less --fix",
+      "lint-staged": "lint-staged"
     },
     "browserslist": {
       "production": [
@@ -63,7 +66,7 @@
         "npm run eslint",
         "git add"
       ],
-      "**/*.less": "npm run stylelint"
+      "**/*.less": "npm run stylelint:fix"
     },
     "husky": {
       "hooks": {

@@ -51,11 +51,6 @@
   vertical-align: middle;
 }
 
-// 文本尺寸
-.size(@width: 0, @height: 4px) {
-  width: @width;
-  height: @height;
-}
 
 // flex 布局
 .flex(@justify: space-between, @align: center, @direction: row) {
@@ -63,19 +58,6 @@
   flex-direction: @direction;
   justify-content: @justify;
   align-items: @align;
-}
-
-.flex-column(@firstEl, @height) {
-  display: flex;
-  flex-flow: column nowrap;
-  .@{firstEl} {
-    height: @height;
-    line-height: @height;
-
-    & + div {
-      flex: 1;
-    }
-  }
 }
 
 .hover {
